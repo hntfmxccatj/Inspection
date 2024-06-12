@@ -99,7 +99,7 @@ def main():
     st.title("Inspection Result Data Analysis")
     #st.write("Analyze inspection data to determine pass and reject rates for different requests.")
     
-    model_path = r"C:\Users\3904650\Desktop\ML\PassAndReject\final_model.cbm"
+    model_path = r"models/final_model.cbm"
     loaded_model = CatBoostClassifier()
     loaded_model.load_model(model_path)
 
